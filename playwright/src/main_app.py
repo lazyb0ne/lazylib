@@ -2,9 +2,14 @@ import time
 # https://m.ss-gate.org/2321.html
 # https://m.ss-gate.org/12121.html
 # page.goto('https://www.ss-gate.org/42933.html')
+
+# python3 -m playwright codegen --target python -o 'auto.py' -b chromium https://www.ss-gate.org/42933.html
+
 from playwright.async_api import async_playwright
 from playwright.sync_api import sync_playwright
 import asyncio
+import wget
+import requests
 
 with sync_playwright() as p:
     iphone = p.devices['iPhone 12 Pro Max']
@@ -68,61 +73,65 @@ async def main_huang():
           print(books)
           await browser.close()
 
-async def get_url_list(url):
+async def get_url_list_app(url):
     print("Url List:")
-    book_info = {}
+    comment_list = []
+
     async with async_playwright() as pw:
 
-        browser = await pw.chromium.launch()
-        page = await browser.new_page()
+        iphone = pw.devices['iPhone 12 Pro Max']
+        browser = await pw.webkit.launch(headless=False)
+        context = await browser.new_context(**iphone, locale='zh-CN')
+        page = await context.new_page()
         await page.goto('https://www.ss-gate.org/'+url)
-        all_items = await page.query_selector_all('div>dl>dd')
-        # book_title_el = await page.query_selector('.book div>.info div>.h1')
-        title_el = await page.query_selector('.book>.info>h1')
-        book_info['title'] = await title_el.inner_text()
 
-        title_el = await page.query_selector('.book>.info>.cover>img')
-        book_info['url'] = await title_el.get_attribute('src')
+        title_el = await page.query_selector('.container>.block>.htitle')
+        title = await title_el.inner_text()
 
-        el = await page.query_selector('.book>.info>.small>span')
-        book_info['author'] = await el.inner_text()
+        info_el = await page.query_selector('.container>.block>.info')
+        info = await info_el.inner_text()
 
-        title_list = []
-        for item in all_items:
+        # video_el = await page.query_selector('.header_video>.video>.vjs-tech')
+        video_el = await page.query_selector('#my-video_html5_api')
+        video_url = await video_el.get_attribute('src')
+        print('video_url id %s' % video_url)
+
+        # 下载视频
+        # download_video(video_url)
+
+        comment_el = await page.query_selector_all('.item_pl>dl')
+        for item in comment_el:
             try:
-                # book = {}
-                title_el = await item.query_selector('a')
-                # book['title'] = await title_el.text_content()
-                title = await title_el.text_content()
-                # price_el = await item.query_selector('.s2')
-                # book['title'] = await price_el.inner_text()
-                # url_el = await item.query_selector('.s2 a')
-                # book['url'] = await url_el.get_attribute('href')
-                title_list.append(title)
+                avatar_el = await item.query_selector('dt>img')
+                avatar = await avatar_el.get_attribute('src')
+
+                name_el = await item.query_selector('dd')
+                name = await name_el.inner_text()
+
+                print("avatar %s" % avatar)
+                print("name %s" % name)
+
             except:
-                {
-                    print("get_url_list bug ")
-                }
+                print("get_url_list bug ")
             else:
                 {}
 
-        print("get_url_list Result:")
-        print(title_list)
-        book_info['list'] = title_list
-        print("Book Info:")
-        print(book_info)
-
-        # book_list.append(book_info)
-        book_list[book_info['title']] = book_info
-
+        # 模拟点击
+        await page.click("class=down_btn")
+        time.sleep(3)
         await browser.close()
+
+def download_video(url):
+    path = '../videos/a.m3u8'
+    wget.download(url, path)
+
 
 def start():
     idx = 0
     for url in url_list:
         if idx > 1:
             continue
-        asyncio.run(get_url_list(url))
+        asyncio.run(get_url_list_app(url))
         print("idx:%d" % idx)
         idx = idx + 1;
 
@@ -130,10 +139,24 @@ book_list = {}
 
 if __name__ == '__main__':
       # 获取列表
-      asyncio.run(main_huang())
-      # asyncio.run(get_url_list('10815.html'))
+      # asyncio.run(main_huang())
+      # asyncio.run(get_url_list_app('2321.html'))
       # 循环拿数据
-      start()
+      # start()
       # print("================================")
-      print(book_list)
+      # print(book_list)
+
+      asyncio.run(get_url_list_app('2321.html'))
+
+      # 下载1
+      # https://www.cfcdnj1.top/filets/1637/dp.m3u8
+      # video_url = 'https://www.cfcdnj1.top/filets/1637/dp.m3u8'
+      # download_video(video_url)
+
+      # 下载2
+      # url = 'https://www.cfcdnj1.top/filets/1637/dp.m3u8'
+      # res = requests.get(url)
+      # with open('dp.m3u8', 'wb') as f:
+      #     f.write(res.content)
+
 

@@ -112,25 +112,27 @@ async def get_url_list(url):
         print("Book Info:")
         print(book_info)
 
-        book_list.append(book_info)
+        # book_list.append(book_info)
+        book_list[book_info['title']] = book_info
 
         await browser.close()
 
 def start():
     idx = 0
     for url in url_list:
-        if idx > 4:
+        if idx > 1:
             continue
         asyncio.run(get_url_list(url))
         print("idx:%d" % idx)
         idx = idx + 1;
 
-book_list = []
+book_list = {}
 
 if __name__ == '__main__':
       # 获取列表
       asyncio.run(main_huang())
       # asyncio.run(get_url_list('10815.html'))
+      # 循环拿数据
       start()
       # print("================================")
       print(book_list)
