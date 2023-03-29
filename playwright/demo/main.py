@@ -45,7 +45,6 @@ async def main_huang():
           browser = await pw.chromium.launch()
           page = await browser.new_page()
           await page.goto('https://www.ss-gate.org/xuanhuan/')
-
           all_items = await page.query_selector_all('div.l>ul>li') # item class name
           books = []
           for item in all_items:
