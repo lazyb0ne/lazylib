@@ -77,8 +77,10 @@ def video_content_by_url():
     for video_idx, video_url in enumerate(video_url_list):
         # video_url = 'http://www.nongkenfang.com' # 测试站点
         print(f"Current url:{video_url}")
+        if is_valid_url(video_url):
+            continue
         is_continue = False
-        if video_url in url_ok:
+        if url_ok and video_url in url_ok:
             try:
                 # 最后一条删掉重新跑
                 if video_url == url_ok[-1]:
@@ -222,7 +224,7 @@ def get_web_url(xlsx_file):
     web_url_ok = []
     for row in sheet.iter_rows():
         web_url_ok.append(row[1].value)
-    return np.unique(web_url_ok)
+    return np.unique(web_url_ok) | None
 
 def word_in_xlsx(file, str_to_delete):
     workbook = openpyxl.load_workbook(file)
