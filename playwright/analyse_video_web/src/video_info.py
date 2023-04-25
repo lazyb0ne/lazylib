@@ -14,6 +14,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 import re
 import sys
+import warnings
 
 
 # 20230413 config
@@ -79,9 +80,11 @@ def video_content_by_url():
         print(f"Current url:{video_url}")
         if is_valid_url(video_url):
             continue
+        if video_idx < 296:
+            continue
         is_continue = False
-        if url_ok and video_url in url_ok:
-            try:
+        try:
+            if url_ok and video_url in url_ok:
                 # 最后一条删掉重新跑
                 if video_url == url_ok[-1]:
                     print(f"Last need to delete:   {video_url}")
@@ -91,8 +94,8 @@ def video_content_by_url():
                     print(f"continue   {video_url}")
                     is_continue = True
                     continue
-            except:
-                print("")
+        except:
+            print("error")
         if is_continue:
             continue
         try:
@@ -201,11 +204,16 @@ def lazy():
 
 
 def is_valid_url(url):
-    pattern = re.compile(
-        r'^(?:http|ftp)s?://'  # scheme
-        r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?))'  # domain
-        r'(?:/?|[/?]\S+)$', re.IGNORECASE)
-    return bool(re.match(pattern, url))
+    try:
+        pattern = re.compile(
+            r'^(?:http|ftp)s?://'  # scheme
+            r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?))'  # domain
+            r'(?:/?|[/?]\S+)$', re.IGNORECASE)
+        result = bool(re.match(pattern, url))
+    except:
+        result = False
+    return result
+
 
 def get_last_row_data(xlsx_file):
     workbook = openpyxl.load_workbook(xlsx_file)
@@ -265,6 +273,7 @@ def test():
 
 
 if __name__ == '__main__':
+    warnings.filterwarnings("ignore", category=DeprecationWarning)
     video_read_url()
     video_content_by_url()
     # lazy()
