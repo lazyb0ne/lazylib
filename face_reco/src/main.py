@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import cv2
 import dlib
 import face_recognition
@@ -7,12 +9,13 @@ def start():
     try:
 
         # 加载固定人脸图像并提取特征
-        known_image = face_recognition.load_image_file("../input/know_person.jpg")
+        known_image = face_recognition.load_image_file("../input/canglaoshi.png")
         known_face_encoding = face_recognition.face_encodings(known_image)[0]
 
         # 初始化人脸检测器和视频捕捉器
         # 加载待识别的视频，这里假设视频文件名为 "video.mp4"
-        video_capture = cv2.VideoCapture("../input/video.mp4")  # 替换为你的视频文件路径
+        video_capture = cv2.VideoCapture("../input/video_cang.mp4")  # 替换为你的视频文件路径
+
 
         while True:
 
@@ -36,10 +39,11 @@ def start():
                 matches = face_recognition.compare_faces([known_face_encoding], face_encoding)
 
                 # 判断是否匹配
+                cur_time = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
                 if matches[0]:
-                    print("已知人脸出现在视频中")
+                    print(f"{cur_time} 已知人脸出现在视频中")
                 else:
-                    print("未知人脸出现在视频中")
+                    print(f"{cur_time} 未知人脸出现在视频中")
 
                 # 显示视频帧
             cv2.imshow("Video", frame)

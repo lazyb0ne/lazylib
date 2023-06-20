@@ -1,22 +1,14 @@
-import asyncio
-import math
+import os
+import re
+import time
+from datetime import datetime
 
 import numpy as np
-import pandas as pd
-import os
-import time
 import openpyxl
-import json
-
+import pandas as pd
 from openpyxl.reader.excel import load_workbook
-from playwright.async_api import async_playwright
-import xlwt
-from datetime import datetime
 from playwright.sync_api import sync_playwright
-import re
-import sys
-import warnings
-
+from pymongo import MongoClient
 
 # 20230413 config
 video_url_list = []
@@ -32,6 +24,8 @@ def video_read_url():
         # print(row['序号'], row['首页'], row['展示渠道'], row['恶意域名'])
         # print(row['column1'], row['column2'])
         video_url_list.append(row['首页'])
+        if index > 3:
+            break;
     print("video_read_url() count = " + str(len(video_url_list)))
 
 
@@ -75,35 +69,18 @@ def video_content_by_url():
     url_ok = get_web_url(search_results_path)
     xls_row_count = 0
     for video_idx, video_url in enumerate(video_url_list):
-        # video_url = 'http://www.nongkenfang.com' # 测试站点
         print(f"Current url:{video_url}")
-        # if is_valid_url(video_url):
-        #     continue
-        # if video_idx < 296:
-        #     continue
-        is_continue = False
+        if video_idx > 10:
+            break
         try:
-            if video_url and not video_url == "nan" and url_ok and len(url_ok) > 0 and video_url in url_ok:
-                # 最后一条删掉重新跑
-                if video_url == url_ok[-1]:
-                    print(f"Last need to delete:   {video_url}")
-                    word_in_xlsx(search_results_path, video_url)
-                    print(f"Deleted OK:   {video_url}")
-                else:
-                    print(f"continue   {video_url}")
-                    is_continue = True
-                    continue
+            print("start2")
+            page_text, internal_links, external_links = download_website_text_and_links(video_url, False)
+            page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True)
+            print(page_text)
         except Exception as e:
             print(e)
             continue
 
-        if is_continue:
-            continue
-        try:
-            page_text, internal_links, external_links = download_website_text_and_links(video_url, False)
-            page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True)
-        except:
-            continue
         list_all = [page_text, internal_links, external_links, page_text_mobile, internal_links_mobile,
                     external_links_mobile]
         list_web_mobile = ['web', 'web', 'web', 'mobile', 'mobile', 'mobile']
@@ -134,6 +111,7 @@ def video_content_by_url():
         if video_idx > 300:
             break
         workbook.save(search_results_path)
+        print("OK")
 
 
 def show_info(video_idx, xls_row_count, kind_index, start_time, video_url_list_count, url_cost, kind_cost):
@@ -266,7 +244,7 @@ def word_in_xlsx(file, str_to_delete):
 
 
 def lazy():
-    file = "../output/VideoUrlResult230424.xlsx"
+    # file = "../output/VideoUrlResult230424.xlsx"
     # web_list = get_last_row_data(file)
     # web_list = get_web_url(file)
     # print(web_list)
@@ -275,17 +253,41 @@ def lazy():
     # for idx, row in enumerate([11,22,33]):
     #     print(f"Deleted: {idx}")
 
-    video_url = 'http://www.nongkenfang.com' # 测试站点
-    # page_text, internal_links, external_links = download_website_text_and_links(video_url, False, False)
+    video_url = 'http://www.nongkenfang.com'  # 测试站点
+    # page_text, internal_links, external_links = download_website_text_and_links(video_url, False, True)
     page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True, False)
-    print("END")
+    print(video_url)
+    # print(page_text)
+    # print(internal_links)
+    # print(external_links)
+    print(page_text_mobile)
+    print(internal_links_mobile)
+    print(external_links_mobile)
+
+
+    # 创建MongoDB连接
+    client = MongoClient('mongodb://localhost:27017/')
+    # 连接远程MongoDB数据库
+    # client = MongoClient('mongodb://adminUser:adminPassword@101.43.113.210:27017')
+    # 选择要使用的数据库
+    db = client['illegal_web']
+    # 选择要使用的集合（表）
+    collection = db['illegal_web_table1']
+
+    # 插入数据
+    data = {'name': 'John', 'age': 30}
+    collection.insert_one(data)
+
+    # 查询数据
+    result = collection.find_one({'name': 'John'})
+    print(result)
 
 
 if __name__ == '__main__':
     # warnings.filterwarnings("ignore", category=DeprecationWarning)
-    video_read_url()
-    video_content_by_url()
+    # video_read_url()
+    # video_content_by_url()
     #
-    # lazy()
+    lazy()
     # test()
 
