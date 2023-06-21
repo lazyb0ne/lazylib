@@ -10,6 +10,10 @@ from pymongo import MongoClient
 def is_external_link(link, url):
     print("is_external_link")
     print(link)
+    if type(link) == list:
+        return False;
+    if isinstance(link, str) and len(link) < 8:
+        return False;
     if type(link) == tuple:
         url_pattern = re.compile(r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+')
         url_only_array = [item for item in link if url_pattern.match(item)][0]
@@ -60,10 +64,16 @@ def start(web_url, deep):
                 if href:
                     txt_links.append((text_content, href))
 
-            # 连接MongoDB数据库
-            client = MongoClient('localhost', 27017)
+            # 连接本地MongoDB数据库
+            # client = MongoClient('localhost', 27017)
+            # db = client['illegal_web']
+            # collection = db['illegal_web_table1']
+            # 连接线上MongoDB数据库
+            client = MongoClient('mongodb://adminUser:adminPassword@101.43.113.210:27017')
+            # 选择要使用的数据库
             db = client['illegal_web']
-            collection = db['illegal_web_table1']
+            # 选择要使用的集合（表）
+            collection = db['illegal_web_list']
 
             # 插入图片链接数据
             for image_link in image_links:
@@ -74,7 +84,7 @@ def start(web_url, deep):
             for text_link in txt_links:
                 if type(text_link) == tuple:
                     url_pattern = re.compile(r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+')
-                    text_link = [item for item in text_link if url_pattern.match(item)][0]
+                    text_link = [item for item in text_link if url_pattern.match(item)]
                 external_link = is_external_link(text_link, web_url)
                 collection.insert_one({'type': 'text', 'text': text_link, 'link': text_link, "deep": deep, "from":web_url, "external_link": external_link})
 
@@ -83,15 +93,16 @@ def start(web_url, deep):
         os.makedirs(images_dir, exist_ok=True)
 
         # 下载图片并保存到对应的目录
-        # for i, image_link in enumerate(image_links):
-        #     response = requests.get(web_url+image_link)
-        #     print(str(i)+" "+web_url+image_link)
-        #     fn = "image_"+str(i+1) + "_" + image_link[-20:].replace('/', '_').replace('}', '')
-        #     image_path = os.path.join(images_dir, fn)
-        #     with open(image_path, 'wb') as file:
-        #         file.write(response.content)
-        #     print(f'Downloaded image: {image_path}')
+        for i, image_link in enumerate(image_links):
+            real_url = image_link if "http" in image_link else web_url+image_link
 
+            response = requests.get(real_url)
+            print(str(i)+" "+real_url)
+            fn = "image_"+str(i+1) + "_" + image_link[-20:].replace('/', '_').replace('}', '')
+            image_path = os.path.join(images_dir, fn)
+            with open(image_path, 'wb') as file:
+                file.write(response.content)
+            print(f'Downloaded image: {image_path}')
 
         # 打印结果
         print('Image Links:')
@@ -105,7 +116,8 @@ def start(web_url, deep):
 
 if __name__ == '__main__':
     start_url = "http://www.nongkenfang.com/"
-    start_url = "http://www.caominyy5.com/"
+    # start_url = "http://www.caominyy5.com/"
+    # start_url = "https://www.1080kdy.com/"
     start_deep = 1
     start(start_url, start_deep);
 

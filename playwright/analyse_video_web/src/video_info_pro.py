@@ -253,29 +253,29 @@ def lazy():
     # for idx, row in enumerate([11,22,33]):
     #     print(f"Deleted: {idx}")
 
-    video_url = 'http://www.nongkenfang.com'  # 测试站点
+    # video_url = 'http://www.nongkenfang.com'  # 测试站点
     # page_text, internal_links, external_links = download_website_text_and_links(video_url, False, True)
-    page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True, False)
-    print(video_url)
+    # page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True, False)
+    # print(video_url)
     # print(page_text)
     # print(internal_links)
     # print(external_links)
-    print(page_text_mobile)
-    print(internal_links_mobile)
-    print(external_links_mobile)
+    # print(page_text_mobile)
+    # print(internal_links_mobile)
+    # print(external_links_mobile)
 
 
     # 创建MongoDB连接
-    client = MongoClient('mongodb://localhost:27017/')
+    # client = MongoClient('mongodb://localhost:27017/')
     # 连接远程MongoDB数据库
-    # client = MongoClient('mongodb://adminUser:adminPassword@101.43.113.210:27017')
+    client = MongoClient('mongodb://adminUser:adminPassword@101.43.113.210:27017')
     # 选择要使用的数据库
     db = client['illegal_web']
     # 选择要使用的集合（表）
-    collection = db['illegal_web_table1']
+    collection = db['illegal_web_list']
 
     # 插入数据
-    data = {'name': 'John', 'age': 30}
+    data = {'name': 'John', 'age': 50}
     collection.insert_one(data)
 
     # 查询数据
