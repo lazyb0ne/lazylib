@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+</head>
+<body>
+    {% for folder, images in groups.items() %}
+    <h2>{{ folder }}</h2>
+    <ul>
+        {% for image in images %}
+        <li><img src="{{ image }}" width="200" height="200"></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</body>
+</html>

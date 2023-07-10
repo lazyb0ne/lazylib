@@ -68,14 +68,18 @@ def video_content_by_url():
     video_url_list_count = len(video_url_list)
     url_ok = get_web_url(search_results_path)
     xls_row_count = 0
+    print("-----------video_url_list")
+    print(video_url_list)
     for video_idx, video_url in enumerate(video_url_list):
         print(f"Current url:{video_url}")
-        if video_idx > 10:
+
+        if video_idx > 2:
             break
+        video_url = "https://www.wydcn.com"
         try:
             print("start2")
             page_text, internal_links, external_links = download_website_text_and_links(video_url, False)
-            page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, True)
+            page_text_mobile, internal_links_mobile, external_links_mobile = download_website_text_and_links(video_url, False)
             print(page_text)
         except Exception as e:
             print(e)
@@ -286,8 +290,9 @@ def lazy():
 if __name__ == '__main__':
     # warnings.filterwarnings("ignore", category=DeprecationWarning)
     # video_read_url()
-    # video_content_by_url()
-    #
-    lazy()
+    video_url_list.append("https://www.wydcn.com")
+    video_content_by_url()
+
+    # lazy()
     # test()
 

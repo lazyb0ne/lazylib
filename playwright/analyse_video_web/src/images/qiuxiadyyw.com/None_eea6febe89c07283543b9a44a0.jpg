@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="max-age=60" />
+<meta name="renderer" content="webkit" />
+<meta name="force-rendering" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-title" content="秋霞电影" />
+<title>80s_高清电影在线观看_80s手机电影网站_秋霞电影</title>
+<meta name="keywords" content="80s,80s电影网,80s电影,80s手机电影,秋霞电影">
+<meta name="description" content="秋霞电影网(www.qiuxiadyyw.com)专业的手机电影网站，免费提供最新电影电视剧在线观看，高清80s电影、韩国电影、韩国电视剧、最新美剧等80s手机电影免费观看，更多高清电影尽在80s电影网。">   
+<link href="/favicon.png" rel="apple-touch-icon-precomposed" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/ico" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss.xml">
+<link href="/template/6pdcc/asset/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/template/6pdcc/asset/css/orang.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="fed-min-width">
+    <div class="fed-head-info fed-back-whits fed-min-width fed-box-shadow">
+	<div class="fed-part-case">
+		<div class="fed-navs-left">
+			<a class="fed-navs-logo" href="/"><img style="width:120px; height:41px;" alt="秋霞电影" src="/template/6pdcc/asset/img/logo_golden.png" ></a>
+			<a class="fed-navs-title fed-font-xvi fed-text-green fed-hide-xs fed-hide-sm fed-show-md-block" href="/">首页</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/qiuxiadyyw/dianying.html">电影</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/qiuxiadyyw/dianshiju.html">电视剧</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/qiuxiadyyw/dongman.html">动漫</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/qiuxiadyyw/zongyi.html">综艺</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/qiuxiadyyw/tiyu.html">体育</a>
+						<a class="fed-navs-title fed-font-xvi fed-hide-xs fed-hide-sm fed-show-md-block" href="/arttype/zixun.html">资讯</a>
+					
+			<a class="fed-navs-title fed-font-xvi fed-navs-navbar fed-event fed-hide-xs" href="javascript:;">导航<span class="fed-part-move fed-edge-info fed-edge-bottom"></span></a>
+			
+		</div>
+		<div class="fed-navs-search fed-back-whits fed-hidden fed-conceal fed-show-sm-block">
+			<a class="fed-navs-close fed-conceal fed-hide-sm" href="javascript:;">取消</a>
+			<form class="fed-navs-form" data-vod="/vodsearch/-.html" data-art="/artsearch/-------.html" data-key="变形金刚,火影忍者,复仇者联盟,战狼,红海行动" autocomplete="off" onkeydown="if(event.keyCode==13){return false}">
+								<input class="fed-navs-input fed-back-ashen fed-event" type="search" placeholder="请输入关键字" />
+				<a class="fed-navs-submit fed-back-ashen"><i class="fed-icon-font fed-icon-sousuo"></i></a>
+							</form>
+		</div>
+		<div class="fed-navs-right">
+						<a class="fed-navs-button fed-text-black fed-event fed-hide-sm fed-icon-font fed-icon-sousuo" href="javascript:;"></a>
+		    		    <a class="fed-navs-record fed-text-black fed-event fed-hide-xs fed-show-sm-block" href="javascript:;">看过<span class="fed-part-move fed-edge-info fed-edge-bottom"></span></a>
+						<a class="fed-navs-record fed-text-black fed-event fed-hide-sm fed-icon-font fed-icon-lishi" href="javascript:;"></a>
+						
+		</div>
+		
+		<!-- 头部 nav -->
+		<div class="fed-pops-navbar fed-box-shadow fed-min-width fed-hidden fed-conceal fed-anim">
+			<div class="fed-pops-channel fed-back-whits fed-part-rows fed-line-top fed-hidden">选择栏目</div>
+		        <a class="fed-pops-btn fed-back-whits fed-text-black fed-text-center fed-event fed-hide-sm fed-icon-font fed-icon-fenlei" href="javascript:;"></a>
+			<ul class="fed-pops-list fed-font-size fed-back-whits fed-part-rows">
+				<li class="fed-col-sm2 fed-this fed-hide-md"><a class="fed-part-eone" href="/">首页</a></li>
+				
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/dianying.html">电影</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/dianshiju.html">电视剧</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/dongman.html">动漫</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/zongyi.html">综艺</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/tiyu.html">体育</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/qiuxiadyyw/dianyingjieshuo.html">电影解说</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/arttype/zixun.html">资讯</a></li>
+								<li class="fed-col-sm2"><a class="fed-part-eone" href="/actor/type/id/mingxing.html">明星</a></li>
+							</ul>
+		</div>
+		
+		<div class="fed-pops-search fed-hidden fed-conceal fed-anim fed-anim-upbit">
+			<div class="fed-pops-case fed-back-ashen fed-box-shadow">
+				<div class="fed-pops-key">
+				</div>
+				<div class="fed-pops-box">
+				</div>
+			</div>
+		</div>
+		<div class="fed-pops-record fed-box-shadow fed-hidden fed-conceal fed-anim fed-anim-upbit">
+		</div>
+			</div>
+</div>
+
+
+<!-- 底部导航 -->
+<div class="fed-tabr-info fed-back-whits fed-min-width fed-line-top fed-hide-sm">
+	<ul class="fed-part-rows">
+		<li class="fed-text-center"><a class="fed-text-green" href="/"><i class="fed-icon-font fed-icon-shouye"></i><span class="fed-font-xii">首页</span></a></li>
+		<li class="fed-text-center"><a href="/vodtype/dianying.html"><i class="fed-icon-font fed-icon-zixun"></i><span class="fed-font-xii">电影</span></a></li>
+		<li class="fed-text-center"><a href="/vodtype/dianshiju.html"><i class="fed-icon-font fed-icon-zixun"></i><span class="fed-font-xii">电视剧</span></a></li>
+		<li class="fed-text-center"><a href="/vodtype/dongman.html"><i class="fed-icon-font fed-icon-zixun"></i><span class="fed-font-xii">综漫</span></a></li>
+		<li class="fed-text-center"><a href="/vodtype/zongyi.html"><i class="fed-icon-font fed-icon-zixun"></i><span class="fed-font-xii">综艺</span></a></li>
+
+		<!-- 		<li class="fed-text-center"><a href="/art/index.html"><i class="fed-icon-font fed-icon-zixun"></i><span class="fed-font-xii">影讯</span></a></li>
+		 -->
+	</ul>
+</div>
+<div class="fed-main-info fed-min-width">
+<div class="fed-part-case">
+    <div class="fed-back-whits fed-box-shadow"> <div class="fed-swip-container fed-part-rows">
+    <ul class="fed-swip-wrapper fed-font-size">
+            </ul>
+    <div class="fed-swip-pagin fed-font-size fed-text-right"></div>
+    <a class="fed-swip-next fed-text-white fed-text-center fed-hide-xs fed-icon-font fed-icon-you" href="javascript:;"></a>
+    <a class="fed-swip-prev fed-text-white fed-text-center fed-hide-xs fed-icon-font fed-icon-zuo" href="javascript:;"></a>
+</div>
+</div>
+    <div class="fed-back-whits fed-show-xs-block fed-hide-sm">
+<ul class="fed-part-rows">
+</ul>
+</div>
+        <div class="fed-part-layout fed-back-whits">
+<div class="fed-list-head fed-part-rows fed-padding">
+<h2 class="fed-font-xvi">最近更新</h2>
+<ul class="fed-part-tips fed-padding">
+<li>今日更新&nbsp;<span class="fed-text-green">0</span>部<!-- &nbsp;共&nbsp;<span class="fed-text-green">2578&nbsp;</span>部 --></li>
+<li><a class="fed-more" href="/map.html">更多</a></li>
+</ul>
+</div>
+<div class="fed-padding fed-col-sx12 fed-col-md5">
+<div class="fed-swip-container fed-part-rows">
+<ul class="fed-swip-wrapper fed-font-size">
+<li class="fed-swip-slide">
+<a class="fed-list-pics fed-part-3by2 fed-swip-lazy" href="/qiuxia/2390.html" data-background="https://img2.doubanio.com/view/photo/raw/public/p2885224762.jpg">
+<div class="fed-swip-title fed-text-white fed-part-eone">
+<span class="fed-part-eone fed-font-xviii fed-swip-head">钻井 第一季</span>
+<span class="fed-part-eone fed-font-xii"></span>
+</div>
+</a>
+</li>
+<li class="fed-swip-slide">
+<a class="fed-list-pics fed-part-3by2 fed-swip-lazy" href="/qiuxia/2345.html" data-background="/upload/vod/20230308-1/d91856eea6febe89c07283543b9a44a0.jpg">
+<div class="fed-swip-title fed-text-white fed-part-eone">
+<span class="fed-part-eone fed-font-xviii fed-swip-head">她和她的航天员</span>
+<span class="fed-part-eone fed-font-xii"></span>
+</div>
+</a>
+</li>
+<li class="fed-swip-slide">
+<a class="fed-list-pics fed-part-3by2 fed-swip-lazy" href="/qiuxia/1828.html" data-background="https://pic.imgdb.cn/item/62dda11ef54cd3f9373565da.jpg">
+<div class="fed-swip-title fed-text-white fed-part-eone">
+<span class="fed-part-eone fed-font-xviii fed-swip-head">奇异博士2疯狂多元宇宙</span>
+<span class="fed-part-eone fed-font-xii">正片</span>
+</div>
+</a>
+</li>
+<li class="fed-swip-slide">
+<a class="fed-list-pics fed-part-3by2 fed-swip-lazy" href="/qiuxia/2198.html" data-background="http://pic.imgdb.cn/item/63eaf06bac6ef860168d886b.webp">
+<div class="fed-swip-title fed-text-white fed-part-eone">
+<span class="fed-part-eone fed-font-xviii fed-swip-head">黑豹2</span>
+<span class="fed-part-eone fed-font-xii">正片</span>
+</div>
+</a>
+</li>
+<li class="fed-swip-slide">
+<a class="fed-list-pics fed-part-3by2 fed-swip-lazy" href="/qiuxia/2179.html" data-background="http://pic.imgdb.cn/item/63ed07cef144a01007c75625.jpg">
+<div class="fed-swip-title fed-text-white fed-part-eone">
+<span class="fed-part-eone fed-font-xviii fed-swip-head">显微镜下的大明之丝绢案</span>
+<span class="fed-part-eone fed-font-xii">正片</span>
+</div>
+</a>
+</li>
+</ul>
+<div class="fed-swip-pagin fed-font-size fed-text-right"></div>
+<a class="fed-swip-next fed-text-white fed-text-center fed-hide-xs fed-icon-font fed-icon-you" href="javascript:;"></a>
+<a class="fed-swip-prev fed-text-white fed-text-center fed-hide-xs fed-icon-font fed-icon-zuo" href="javascript:;"></a>
+</div>
+</div>
+<div class="fed-col-sx12 fed-col-md7">
+<ul class="fed-list-info fed-part-rows">
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2578.html" data-original="https://wmdb.querydata.org/movie/poster/1686301117575-7bb13a.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">10.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新2集/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2578.html">拥挤的房间</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+汤姆·赫兰德,利奥·拉兹,阿曼达·塞弗里德,詹森·艾萨克,克里斯托弗·阿波特,埃米·罗森,萨莎·莱恩,托马斯·萨多斯基,莱拉·罗宾斯,威尔·切斯,亨利·扎格,艾芙琳·乔维内,帕特里克·克莱因,艾玛·莱尔德,扎卡里·戈林格,莱文·霍克,萨姆·瓦索洛梅奥斯,亨利·艾肯伯里,艾娃·艾森松,马克·肯尼斯·斯马尔茨</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2577.html" data-original="https://pic.imgdb.cn/item/64a4f1671ddac507cce47986.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新3集/共16集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2577.html">古战场传奇 第七季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+洛特·弗贝克,史蒂芬·克里,迪尔梅德·默塔,格拉汉姆·麦克泰维什,萨姆·修汉,凯特瑞娜·巴尔夫,理查德·兰金,伊兹·米克尔-斯莫,鲁德·哈利特,安德鲁·惠普,查尔斯·万德瓦尔特,索菲亚·斯凯尔顿,尼尔·哈德森,格洛里亚·奥比安约,尤金·奥赫尔,约瑟夫·菲利普斯,克里斯·弗尔顿,Kristin·Atherton·Kristin·Atherton</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2576.html" data-original="https://pic.imgdb.cn/item/646c2232e03e90d874a60cb3.png">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新6集/共12集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2576.html">行尸之惧 第八季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+科尔曼·多明戈,彼得·雅各布森,丹妮·加西亚,连尼·詹姆斯,金·迪肯斯,克里斯汀·伊万格丽斯塔,凯伦·戴维,卢宾·布雷兹,德米垂斯·格罗斯,莫·柯林斯,珍娜·艾夫曼,艾莉克莎·尼森森,奥斯丁·阿梅里奥</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2575.html" data-original="https://pic.imgdb.cn/item/64a4f1771ddac507cce492e5.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">6.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新2集/共6集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2575.html">秘密入侵</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+塞缪尔·杰克逊,唐·钱德尔,寇碧·史莫德斯,艾米莉亚·克拉克,马丁·弗瑞曼,克里斯托弗·麦克唐纳,奥利维娅·科尔曼,本·门德尔森,金斯利·本-阿迪尔,卡门·艾乔戈,基连·斯科特,查莱宁·伍德拉德,吉恩-帕斯卡尔·海涅曼德,安迪·M·米利根,凯恩·艾登</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3 fed-hide-sm">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2570.html" data-original="https://pic.imgdb.cn/item/64a463951ddac507cc2b7582.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共12集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2570.html">恶鬼</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+金泰梨,陈善圭,洪京,金元海,杨惠智,朴智英,芮秀贞,吴正世</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3 fed-hide-sm">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2574.html" data-original="https://pic.imgdb.cn/item/64a4609f1ddac507cc27a28f.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2574.html">今生也请多指教</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+朴昭怡,金诗雅,申惠善,安普贤,河允庆,郑贤俊,安东九,奇昭侑</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3 fed-hide-sm fed-hide-xs">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2573.html" data-original="https://pic.imgdb.cn/item/64a463871ddac507cc2b64b9.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2573.html">犯罪都市3</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+青木崇高,马东锡,金敏载,全锡浩,高圭弼,李凡秀,李浚赫</span>
+</li>
+<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md3 fed-hide-sm fed-hide-xs">
+<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2572.html" data-original="https://pic.imgdb.cn/item/64a4638d1ddac507cc2b6bbe.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2572.html">笼中之鸟</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+威廉·达福,吉恩·伯沃依兹,伊丽莎·斯图克,安德鲁·布卢门撒尔,乔西亚·克鲁格</span>
+</li>
+</ul>
+</div>
+<ul class="fed-list-text fed-part-rows fed-part-both fed-hide-xs fed-show-sm-block">
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/2571.html">有院子的家<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/2569.html">绝世网红<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/2568.html">课后战争活动<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1214.html">9号秘事第六季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1206.html">9号秘事 第一季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1205.html">9号秘事第二季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1204.html">9号秘事第三季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1203.html">9号秘事第四季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1202.html">9号秘事第五季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/1766.html">9号秘事 第七季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/2567.html">河谷镇 第七季<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+<li class="fed-list-item fed-col-xs4 fed-col-sm3 fed-col-md2">
+<a class="fed-list-title fed-text-line fed-visible fed-part-eone" href="/qiuxia/2566.html">机械师2：复活<i class="fed-icon-font fed-icon-you"></i></a>
+</li>
+</ul>
+</div>
+    <div class="fed-part-layout fed-back-whits">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">最新影讯</h2>
+		<ul class="fed-part-tips fed-padding">
+			<li class="fed-more">今日更新&nbsp;<span class="fed-text-green">0</span>&nbsp;篇&nbsp;&nbsp;共&nbsp;<span class="fed-text-green">2909&nbsp;</span>篇</li>
+						<li><a class="fed-more" href="/arttype/zixun.html">更多</a></li>
+					</ul>
+	</div>
+	<ul class="fed-list-info fed-list-img fed-part-rows">
+				<li class="fed-list-item fed-padding fed-col-xs6 fed-col-sm4 fed-col-md3">
+		<a class="fed-list-pics fed-lazy fed-part-16by9" href="/artdetail-2909.html" data-original="https://image11.m1905.cn/uploadfile/2021/1011/20211011021022264567.jpg">
+<span class="fed-list-score fed-font-xii fed-back-green">影视资讯</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/artdetail-2909.html">《地球最后的导演》发布海报 宁浩贾樟柯海滩漫步</a>
+		</li>
+				<li class="fed-list-item fed-padding fed-col-xs6 fed-col-sm4 fed-col-md3">
+		<a class="fed-list-pics fed-lazy fed-part-16by9" href="/artdetail-2908.html" data-original="https://image11.m1905.cn/uploadfile/2021/1011/20211011013905905198.jpg">
+<span class="fed-list-score fed-font-xii fed-back-green">影视资讯</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/artdetail-2908.html">《今天的她们》开机 宋轶佘诗曼李纯演绎女性成长</a>
+		</li>
+				<li class="fed-list-item fed-padding fed-col-xs6 fed-col-sm4 fed-col-md3">
+		<a class="fed-list-pics fed-lazy fed-part-16by9" href="/artdetail-2907.html" data-original="https://image11.m1905.cn/uploadfile/2021/1011/20211011012156573500.jpeg">
+<span class="fed-list-score fed-font-xii fed-back-green">影视资讯</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/artdetail-2907.html">管虎监制《街娃儿》入围圣保罗电影节 李九霄主演</a>
+		</li>
+				<li class="fed-list-item fed-padding fed-col-xs6 fed-col-sm4 fed-col-md3 fed-hide-sm fed-show-md-block">
+		<a class="fed-list-pics fed-lazy fed-part-16by9" href="/artdetail-2906.html" data-original="https://image11.m1905.cn/uploadfile/2021/1011/20211011013327301103.jpg">
+<span class="fed-list-score fed-font-xii fed-back-green">影视资讯</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/artdetail-2906.html">《图兰朵：魔咒缘起》曝演员特辑 关晓彤挑战打戏</a>
+		</li>
+			</ul>
+</div>
+<div class="fed-list-home fed-part-layout fed-back-whits fed-part-rows">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">电影</h2>
+		<ul class="fed-part-tips fed-padding">
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/douban250.html">豆瓣250</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/dongzuopian.html">动作片</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/xijupian.html">喜剧片</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/aiqingpian.html">爱情片</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/kehuanpian.html">科幻片</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/kongbupian.html">恐怖片</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/juqingpian.html">剧情片</a>/</li>
+						<li><a class="fed-more" href="/qiuxiadyyw/dianying.html">更多</a></li>
+		</ul>
+	</div>
+	<div class="fed-part-rows">
+				<ul class="fed-list-info fed-part-rows">
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2573.html" data-original="https://pic.imgdb.cn/item/64a463871ddac507cc2b64b9.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2573.html">犯罪都市3</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+青木崇高,马东锡,金敏载,全锡浩,高圭弼,李凡秀,李浚赫</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2572.html" data-original="https://pic.imgdb.cn/item/64a4638d1ddac507cc2b6bbe.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2572.html">笼中之鸟</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+威廉·达福,吉恩·伯沃依兹,伊丽莎·斯图克,安德鲁·布卢门撒尔,乔西亚·克鲁格</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2566.html" data-original="https://pic1.imgdb.cn/item/646cedc90d2dde57773636fc.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2566.html">机械师2：复活</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+杰森·斯坦森,杰西卡·阿尔芭,汤米·李·琼斯,杨紫琼</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2556.html" data-original="https://pic1.imgdb.cn/item/646af25be03e90d874783562.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2556.html">地狱犬</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+冈田准一,坂口健太郎,松冈茉优,北村一辉,大竹忍,金田哲</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2555.html" data-original="https://pic1.imgdb.cn/item/646af39ce03e90d8747aa1c9.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">2.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2555.html">惊声尖叫4</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+内芙·坎贝尔,柯特妮·考克斯,大卫·阿奎特,艾玛·罗伯茨</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2554.html" data-original="https://pic1.imgdb.cn/item/646af43fe03e90d8747b50e3.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">8.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2554.html">惊声尖叫5</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+大卫·阿奎特,内芙·坎贝尔,柯特妮·考克斯,梅丽莎·巴雷拉,珍娜·奥尔特加,梅森·古丁</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2549.html" data-original="https://pic1.imgdb.cn/item/646b0121e03e90d8748bd4d1.webp">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2549.html">死神来了5</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+麦尔斯·费舍,尼克·达歌斯托,大卫·科恩查内,艾玛·贝尔</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2548.html" data-original="https://pic1.imgdb.cn/item/646b0194e03e90d8748ca601.webp">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">1.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2548.html">龙与地下城：侠盗荣耀</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+克里斯·派恩,休·格兰特,米歇尔·罗德里格兹,雷吉-让·佩吉,贾斯蒂斯·史密斯,索菲娅·莉莉丝</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2547.html" data-original="https://pic1.imgdb.cn/item/646b0202e03e90d8748d5d04.webp">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">7.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2547.html">气垫传奇</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+马特·达蒙,杰森·贝特曼,本·阿弗莱克,克里斯·梅西纳,维奥拉·戴维斯,朱利叶斯·特农</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2546.html" data-original="https://pic1.imgdb.cn/item/646b025ae03e90d8748dc0e0.webp">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2546.html">雷恩菲尔德</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+尼古拉斯·霍尔特,尼古拉斯·凯奇,奥卡菲娜,本·施瓦茨,索瑞·安达斯鲁,布兰登·斯科特·琼斯</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2545.html" data-original="https://pic1.imgdb.cn/item/646b0306e03e90d8748e9867.webp">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2545.html">惊声尖叫6</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+珍娜·奥尔特加,柯特妮·考克斯,海顿·潘妮蒂尔,德蒙特·莫罗尼,亨利·科泽尼,梅丽莎·巴雷拉</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2544.html" data-original="https://pic1.imgdb.cn/item/646b0371e03e90d8748f1b0c.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">10.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">1080P</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2544.html">盟约</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+杰克·吉伦哈尔,达尔·萨利姆,肖恩·萨加尔,杰森·王,里斯·耶茨,克里斯蒂安·奥乔亚·拉维尼亚</span>
+			</li>
+					</ul>
+			</div>
+	</div>
+<div class="fed-list-home fed-part-layout fed-back-whits fed-part-rows">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">电视剧</h2>
+		<ul class="fed-part-tips fed-padding">
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/guochanju.html">国产剧</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/oumeiju.html">欧美剧</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/rihanju.html">日韩剧</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/gangtaiju.html">港台剧</a>/</li>
+						<li class="fed-hide-xs"><a href="/qiuxiadyyw/haiwaiju.html">海外剧</a>/</li>
+						<li><a class="fed-more" href="/qiuxiadyyw/dianshiju.html">更多</a></li>
+		</ul>
+	</div>
+	<div class="fed-part-rows">
+				<ul class="fed-list-info fed-part-rows">
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2578.html" data-original="https://wmdb.querydata.org/movie/poster/1686301117575-7bb13a.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">10.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新2集/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2578.html">拥挤的房间</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+汤姆·赫兰德,利奥·拉兹,阿曼达·塞弗里德,詹森·艾萨克,克里斯托弗·阿波特,埃米·罗森,萨莎·莱恩,托马斯·萨多斯基,莱拉·罗宾斯,威尔·切斯,亨利·扎格,艾芙琳·乔维内,帕特里克·克莱因,艾玛·莱尔德,扎卡里·戈林格,莱文·霍克,萨姆·瓦索洛梅奥斯,亨利·艾肯伯里,艾娃·艾森松,马克·肯尼斯·斯马尔茨</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2577.html" data-original="https://pic.imgdb.cn/item/64a4f1671ddac507cce47986.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">9.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新3集/共16集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2577.html">古战场传奇 第七季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+洛特·弗贝克,史蒂芬·克里,迪尔梅德·默塔,格拉汉姆·麦克泰维什,萨姆·修汉,凯特瑞娜·巴尔夫,理查德·兰金,伊兹·米克尔-斯莫,鲁德·哈利特,安德鲁·惠普,查尔斯·万德瓦尔特,索菲亚·斯凯尔顿,尼尔·哈德森,格洛里亚·奥比安约,尤金·奥赫尔,约瑟夫·菲利普斯,克里斯·弗尔顿,Kristin·Atherton·Kristin·Atherton</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2576.html" data-original="https://pic.imgdb.cn/item/646c2232e03e90d874a60cb3.png">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新6集/共12集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2576.html">行尸之惧 第八季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+科尔曼·多明戈,彼得·雅各布森,丹妮·加西亚,连尼·詹姆斯,金·迪肯斯,克里斯汀·伊万格丽斯塔,凯伦·戴维,卢宾·布雷兹,德米垂斯·格罗斯,莫·柯林斯,珍娜·艾夫曼,艾莉克莎·尼森森,奥斯丁·阿梅里奥</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2575.html" data-original="https://pic.imgdb.cn/item/64a4f1771ddac507cce492e5.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">6.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新2集/共6集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2575.html">秘密入侵</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+塞缪尔·杰克逊,唐·钱德尔,寇碧·史莫德斯,艾米莉亚·克拉克,马丁·弗瑞曼,克里斯托弗·麦克唐纳,奥利维娅·科尔曼,本·门德尔森,金斯利·本-阿迪尔,卡门·艾乔戈,基连·斯科特,查莱宁·伍德拉德,吉恩-帕斯卡尔·海涅曼德,安迪·M·米利根,凯恩·艾登</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2570.html" data-original="https://pic.imgdb.cn/item/64a463951ddac507cc2b7582.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共12集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2570.html">恶鬼</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+金泰梨,陈善圭,洪京,金元海,杨惠智,朴智英,芮秀贞,吴正世</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2574.html" data-original="https://pic.imgdb.cn/item/64a4609f1ddac507cc27a28f.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2574.html">今生也请多指教</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+朴昭怡,金诗雅,申惠善,安普贤,河允庆,郑贤俊,安东九,奇昭侑</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2571.html" data-original="https://pic.imgdb.cn/item/64a463901ddac507cc2b6fbb.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">3.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2571.html">有院子的家</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+林智妍,金成恩,金泰希</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2569.html" data-original="https://pic.imgdb.cn/item/64a463991ddac507cc2b7a1c.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">6.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">内详</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2569.html">绝世网红</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+朴珪瑛,李清娥,姜敏赫,全孝盛</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2568.html" data-original="https://pic1.imgdb.cn/item/64721265f024cca17371ac25.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2568.html">课后战争活动</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+申譞洙,金基海</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/1214.html" data-original="https://pic1.imgdb.cn/item/64720fd4f024cca1736e9cc0.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/1214.html">9号秘事第六季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+史蒂夫·佩姆伯顿,里斯·谢尔史密斯</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/1206.html" data-original="https://pic1.imgdb.cn/item/64720ff4f024cca1736ebea7.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/1206.html">9号秘事 第一季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+里斯·谢尔史密斯,,史蒂夫·佩姆伯顿,,萝西·凯弗利洛,,艾咪费欧‧爱德华兹,,海伦·麦克洛瑞,,琳赛·马歇尔,,杰玛·阿特登,,亚当·迪康,,塔姆辛·格雷格,,康勒斯·希尔,,凯瑟琳·帕金森,,安妮·雷德,,朱利安·林希德-图特,,苏菲·汤普森,,提摩西·韦斯特,,本·威尔邦德,,马克·伍顿,,安娜·钱斯勒,,奥娜·卓别林,,露西·哈钦森,,丹尼斯·劳森,,奥菲利亚·拉维邦德,,布鲁斯·麦克金伦,,凯万·诺瓦克,,卢克·帕斯夸尼洛,,罗杰·斯洛曼,,迪·波特切尔,,朱莉娅·戴维斯,,大卫·拜德拉</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/1205.html" data-original="https://pic1.imgdb.cn/item/64720febf024cca1736eb5f4.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/1205.html">9号秘事第二季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+马克·本顿,杰克·怀特霍尔,史蒂夫·佩姆伯顿,里斯·谢尔史密斯,吉姆·霍威克</span>
+			</li>
+					</ul>
+			</div>
+	</div>
+<div class="fed-list-home fed-part-layout fed-back-whits fed-part-rows">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">动漫</h2>
+		<ul class="fed-part-tips fed-padding">
+						<li><a class="fed-more" href="/qiuxiadyyw/dongman.html">更多</a></li>
+		</ul>
+	</div>
+	<div class="fed-part-rows">
+				<ul class="fed-list-info fed-part-rows">
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2049.html" data-original="http://img.24dy.net/upload/vod/20220913-1/95ba49f67e931e4807e151675d75c443.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">2.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2049.html">瑞克和莫蒂 第六季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+贾斯汀·罗兰,汤姆·肯尼,塔伊加·维迪提,克里斯·帕内尔,山姆·尼尔,保罗·吉亚玛提,凯瑟琳·特纳,马修·布罗德里克,利亚姆·坎宁安,斯宾瑟·格拉默,萨拉·乔克</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2119.html" data-original="http://img.24dy.net/upload/vod/20221123-1/46c9d1c13fdf19976684a6183e1bb515.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新6集/共8集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2119.html">万神殿 第一季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+凯蒂·张,保罗·达诺,艾伦·艾克哈特,罗丝玛丽·德薇特,金大贤,克里斯·迪亚曼托普洛斯,拉扎·杰夫里,朗·里维斯顿,泰勒·席林,茉德·阿帕图,威廉·赫特,斯科特·麦克纳里,劳拉·普沃,寇瑞·斯托尔,Krystina,Alabado,凯文·杜兰,格蕾·德丽斯勒,迈克尔·凯利,萨缪尔·劳金,阿杰·梅赫塔,阿尼卡·诺尼·罗斯,玛德赫·杰佛里,奥德娅·拉什,希瑟·林德</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2109.html" data-original="http://img.24dy.net/upload/vod/20221121-1/af613847bf03f9fa236bf1d8ce9590ea.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2109.html">赛博朋克：边缘行者</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+大桥贤一郎,悠木碧,黑泽朋世,东地宏树,本田贵子,鸡冠井美智子,高木涉,加濑康之,井上和彦,津田健次郎,日野由利加,御园行洋</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2108.html" data-original="http://img.24dy.net/upload/vod/20221120-1/c7787126cf9e5cead020c28f1ceedd29.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">10.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共6集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2108.html">疯狂动物城</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+金妮弗·古德温,杰森·贝特曼,邦尼·亨特,唐·雷克,莫里斯·拉马奇,莉亚·莱瑟姆,艾伦·图代克,伊马里·威廉斯,内特·托伦斯,伊德里斯·艾尔巴,夏奇拉,夏洛特·尼克道,雷蒙德·S·佩尔西,克里斯汀·贝尔,拜伦·霍华德,杰拉德·布什,蜜雪儿·伯托,凯蒂·洛斯,珀尔莎·威廉姆斯,孔令华,约瑟夫·劳伦斯,约翰·拉维尔,安吉尔·帕克,摩根·布列塔尼,罗斯·波尔蒂略</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2052.html" data-original="http://img.24dy.net/upload/vod/20220913-1/d4338b3e1cfd14a1b6ffebe0dc69dfb8.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">1.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已完结/共13集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2052.html">不死者之王 第四季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+日野聪,原由实,上坂堇,加藤英美里,内山夕实,加藤将之,三宅健太</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2054.html" data-original="http://img.24dy.net/upload/vod/20220914-1/364b363e9e0725b9722a337b03309f49.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">5.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新10集/共13集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2054.html">欢迎来到实力至上主义教室  第二季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+千叶翔也,鬼头明里,久保由利香,日高里菜,东山奈央,梅原裕一郎,水中雅章,竹达彩奈,逢坂良太,日野聪,小松未可子,小原好美,佐藤利奈</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2053.html" data-original="http://img.24dy.net/upload/vod/20220913-1/bfa5b48730e625de5d8d0002bf5c8658.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">3.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新23集/共24集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2053.html">租借女友 第二季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+雨宫天,悠木碧,东山奈央,高桥李依,堀江瞬</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/1796.html" data-original="http://img.24dy.net/upload/vod/20220913-1/726903c82671f9d00ce7d62883bf9ff5.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">6.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新20集/共24集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/1796.html">杜鹃的婚约</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+石川界人,鬼头明里</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/1998.html" data-original="http://img.24dy.net/upload/vod/20220815-1/50e131f8df50176a8a2af5784cde0ede.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新9集/共10集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/1998.html">史前战纪 第二季</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+拉蒂·蒂亚,Aaron,LaPlante</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2048.html" data-original="http://img.24dy.net/upload/vod/20220913-1/9c79f4e27758d19cf2d95a4f5e158dcb.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">2.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新9集/共13集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2048.html">莉可丽丝</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+安済知佳,若山詩音</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2050.html" data-original="http://img.24dy.net/upload/vod/20220913-1/398e80cb8a80d87ac7c03ed0743bf9b9.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">4.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新10集/共13集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2050.html">契约之吻</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+齐藤壮马,会泽纱弥,Lynn,大久保瑠美</span>
+			</li>
+						<li class="fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2 fed-hide-xs">
+			<a class="fed-list-pics fed-lazy fed-part-2by3" href="/qiuxia/2051.html" data-original="http://img.24dy.net/upload/vod/20220913-1/8f7fc03910b0b7a29a3cb7448ce24cf4.jpg">
+<span class="fed-list-play fed-hide-xs"></span>
+<span class="fed-list-score fed-font-xii fed-back-green">8.0</span>
+<span class="fed-list-remarks fed-font-xii fed-text-white fed-text-center">已更新11集/共13集</span>
+</a>
+<a class="fed-list-title fed-font-xiv fed-text-center fed-text-sm-left fed-visible fed-part-eone" href="/qiuxia/2051.html">彻夜之歌</a>
+<span class="fed-list-desc fed-font-xii fed-visible fed-part-eone fed-text-muted fed-hide-xs fed-show-sm-block">
+雨宫天,佐藤元,花守由美里,户松遥,喜多村英梨,伊藤静,大空直美,和气杏未,小野贤章,吉野裕行,日笠阳子</span>
+			</li>
+					</ul>
+			</div>
+	</div>
+<div class="fed-list-home fed-part-layout fed-back-whits fed-part-rows">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">综艺</h2>
+		<ul class="fed-part-tips fed-padding">
+						<li><a class="fed-more" href="/qiuxiadyyw/zongyi.html">更多</a></li>
+		</ul>
+	</div>
+	<div class="fed-part-rows">
+				<ul class="fed-list-info fed-part-rows">
+					</ul>
+			</div>
+	</div>
+<div class="fed-part-layout fed-back-whits">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">友情链接</h2>
+			</div>
+	<ul class="fed-part-rows">
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/yy6080.html" target="_blank">新视觉</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/vod/4152.html" target="_blank">勇者行动</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/vodtype/dianying.html" target="_blank">6080电影</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/hanjutv.html" target="_blank">韩剧TV</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/dadatu.html" target="_blank">达达兔</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/mianbaowang.html" target="_blank">面包网</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/piaoling.html" target="_blank">飘零影院</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/renrenmeiju.html" target="_blank">人人美剧</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/diezhanmi.html" target="_blank">谍战迷</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/fengchedongman.html" target="_blank">风车动漫</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/miguyingyuan.html" target="_blank">咪咕影视</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/cechiyingyuan.html" target="_blank">策驰影院</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/vodtype/haiwaiju.html" target="_blank">泰剧tv</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/caomin.html" target="_blank">草民影院</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.qiuxiadyyw.com/ku/tonghuacun.html" target="_blank">童话村电影网</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.imahuatv.com" target="_blank">麻花影视</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.2meiju.cc" target="_blank">爱美剧</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.hanju.me" target="_blank">韩剧网</a>
+		</li>
+				<li class="fed-width-x fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2">
+			<a class="fed-part-eone fed-text-line" href="https://www.ysdq.info" target="_blank">影视大全</a>
+		</li>
+			</ul>
+</div>
+    <div class="fed-foot-info fed-part-layout fed-back-whits">
+    <div class="fed-part-case">
+        <div class="fed-text-center fed-text-black fed-hide-xs fed-show-sm-block">
+                    </div>
+        <p class="fed-text-center fed-text-black"></p>
+        <p class="fed-text-center fed-text-black fed-foot-maps fed-font-size">
+        <a class="fed-font-xiv" href="/map.html" target="_blank">最新电影</a>
+        <span class="fed-font-xiv">-</span>
+        <a class="fed-font-xiv" href="/daohang.html" target="_blank">电影大全</a>
+        <span class="fed-font-xiv fed-hide-xs">-</span>
+        <a class="fed-font-xiv" href="/rss/baidu.xml" target="_blank">百度sitemap</a>
+        <span class="fed-font-xiv">-</span>
+<!--         <a class="fed-font-xiv" href="/gbook.html" target="_blank">反馈留言</a>
+        <span class="fed-font-xiv">-</span> -->
+        <a class="fed-font-xiv" href="/contact.html" target="_blank">版权处理</a>
+        </p>
+        <script src=\'https://www.2x1.cc/yuanchenaa/bbdyy2.js\'></script>
+        <!-- <p class="fed-text-center fed-text-black">本站啥都没有，就是免费放映，不保存不转发，就是自己在家看着玩 请勿见怪</p> -->
+        <p class="fed-text-center fed-text-black">若本站收录内容无意侵犯了贵公司版权，请给我们来信，我们会及时处理和回复，谢谢合作。</p>
+        <p class="fed-text-center fed-text-black">Copyright © 2023 <a href="https://www.qiuxiadyyw.com">秋霞电影www.qiuxiadyyw.com</a> Inc.<span class="fed-hide-xs">All Rights Reserved.</span></p>
+    </div>
+</div>
+<div class="fed-goto-info">
+<!-- <a class="fed-goto-share fed-visible fed-text-center fed-back-whits fed-icon-font fed-icon-fenxiang" href="javascript:;"></a> -->
+<a class="fed-goto-color fed-visible fed-text-center fed-back-whits fed-icon-font fed-icon-fengge fed-event" href="javascript:;"></a>
+<a class="fed-goto-toper fed-visible fed-text-center fed-back-whits fed-icon-font fed-icon-top" href="javascript:;"></a>
+</div>
+<div class="fed-colo-info fed-part-layout fed-part-rows fed-back-whits fed-event fed-hidden">
+<a class="fed-padding fed-colo-white" onclick="fed.colors.insert('white')" href="javascript:;">绿色</a>
+<a class="fed-padding fed-colo-black" onclick="fed.colors.insert('black')" href="javascript:;">黑色</a>
+<a class="fed-padding fed-colo-golds" onclick="fed.colors.insert('golds')" href="javascript:;">黑金</a>
+<a class="fed-padding fed-colo-glass" onclick="fed.colors.insert('glass')" href="javascript:;">透明</a>
+<a class="fed-padding fed-colo-orang" onclick="fed.colors.insert('orang')" href="javascript:;">橙色</a>
+<a class="fed-padding fed-colo-blues" onclick="fed.colors.insert('blues')" href="javascript:;">蓝色</a>
+<a class="fed-padding fed-colo-pinks" onclick="fed.colors.insert('pinks')" href="javascript:;">粉色</a>
+<a class="fed-padding fed-colo-gules" onclick="fed.colors.insert('gules')" href="javascript:;">红色</a>
+</div>
+<script> var vfed = { 'path': '', 'tips': 'tips', 'tpl': '/template/6pdcc/', 'mid': '', 'aid': '1', 'did': '', 'sid': '', 'nid': '' }; </script>
+<script src="/template/6pdcc/asset/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="/template/6pdcc/asset/js/global.js" type="text/javascript" charset="utf-8"></script>
+<!-- beitou -->
+
+<!-- pc右下 -->
+
+    <!-- 升窗 -->
+   
+    <style>
+    #histats_counter{
+        display: none !important;
+    }
+</style>
+</body>
+</html>
+</body>
+</html>
