@@ -204,7 +204,7 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
     async with async_playwright() as playwright:
         if by_phone:
             iphone_12 = playwright.devices['iPhone 12']
-            browser = await playwright.webkit.launch(headless=False)
+            browser = await playwright.webkit.launch(headless=True)
             context = await browser.new_context(**iphone_12, locale='zh-CN')
         else:
             browser = await playwright.chromium.launch()
@@ -221,6 +221,7 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
         # 逐步滚动到页面底部，等待加载中间内容
         while True:
             await page.evaluate('window.scrollBy(0, 200)')
+            time.sleep(1)  # 等待加载
             if await page.evaluate('document.documentElement.scrollHeight - window.innerHeight <= window.pageYOffset'):
                 break
 
@@ -249,6 +250,9 @@ def get_source_with_playwright_by_mobile_nb(url):
 
         # 查找第一个包含img标签的a标签
         img_a_tag = page.query_selector('a:has(img)')
+        if img_a_tag is None:
+            img_a_tag = page.query_selector('a')
+
 
         if img_a_tag:
             # 点击第一个包含img标签的a标签
@@ -288,6 +292,8 @@ def get_source_with_playwright_by_pc_nb(url):
         time.sleep(3)
         # 查找第一个包含img标签的a标签
         img_a_tag = page.query_selector('a:has(img)')
+        if img_a_tag is None:
+            img_a_tag = page.query_selector('a')
         if img_a_tag:
             print(img_a_tag)
             # 点击第一个包含img标签的a标签

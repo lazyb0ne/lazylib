@@ -11,6 +11,7 @@ import tldextract
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
+from utils.my_data import urls_96
 from utils.my_url_util import get_source_with_playwright_by_mobile, is_valid_url, get_page_source_with_playwright, \
     capture_long_website_screenshot, base_url, is_valid_domain, base_url_with_http, remove_quotes, \
     get_source_with_playwright_by_mobile_nb, get_source_with_playwright_by_pc_nb
@@ -530,6 +531,7 @@ def info():
 
 def start():
     url = "https://www.wodou99.com/"
+    # url = "https://4kyk.com"
     # # parse_text_and_links(url, is_mobile=False)
     # db_clear_by_name("website_analysis_urls")
     # parse_text_and_links(url, is_mobile=True)
@@ -539,8 +541,8 @@ def start():
     # parse_img(url, is_mobile=True)
     #
     # info()
-    #
-    # return
+    save_all_screenshot()
+    return
     init_dir(url)
     # db_clear_by_name("website_analysis")
     db_clear_by_name("website_analysis_urls")
@@ -552,6 +554,14 @@ def start():
     parse_img(url, is_mobile=True)
     download_image()
     info()
+
+
+def save_all_screenshot():
+    print("save_all_screenshot")
+    for idx, url in enumerate(urls_96()):
+        print(f"{idx} url :{url}")
+        save_screenshot(url)
+        print("   OK")
 
 
 if __name__ == '__main__':
