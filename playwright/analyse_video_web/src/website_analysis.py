@@ -12,7 +12,8 @@ from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
 from utils.my_url_util import get_source_with_playwright_by_mobile, is_valid_url, get_page_source_with_playwright, \
-    capture_long_website_screenshot, base_url, is_valid_domain, base_url_with_http, remove_quotes
+    capture_long_website_screenshot, base_url, is_valid_domain, base_url_with_http, remove_quotes, \
+    get_source_with_playwright_by_mobile_nb, get_source_with_playwright_by_pc_nb
 from utils.my_db import db_full_dbname, db_clear_by_name
 from datetime import datetime, timedelta
 
@@ -50,17 +51,20 @@ def get_url_source_mobile(url):
         if diff.total_seconds() < update_sec_count:
             source_mobile = result["source_mobile"]
             print(f"get source_mobile by db url:{url} ")
-            return source_mobile
+            if source_mobile and len(source_mobile) >300:
+                return source_mobile
     # 如果不是在1小时内更新的，则重新获取源码
-    source_mobile = get_source_with_playwright_by_mobile(url)
-    print(f"source_mobile:{source_mobile}")
+    # source_mobile = get_source_with_playwright_by_mobile(url)
+    source_mobile = get_source_with_playwright_by_mobile_nb(url)
+
+    # print(f"source_mobile:{source_mobile}")
     # 判断source_mobile长度是否大于300
     if len(source_mobile) > source_mobile_len:
         # 更新source_mobile和source_mobile_updated_at字段
         # 检查是否存在记录
         existing_record = db().find_one({'url': url})
         if existing_record:
-            query = {"url": url, "type": "mobile"}
+            query = {"url": url}
             update = {"$set": {
                 "source_mobile": source_mobile,
                 "source_mobile_updated_at": datetime.now()
@@ -100,7 +104,8 @@ def get_url_source_pc(url):
             print(f"get source_pc by db url:{url} ")
             return source_pc
     # 如果不是在1小时内更新的，则重新获取源码
-    source_pc = get_page_source_with_playwright(url)
+    # source_pc = get_page_source_with_playwright(url)
+    source_pc = get_source_with_playwright_by_pc_nb(url)
     # 判断source_pc长度是否大于300
     if len(source_pc) > source_pc_len:
         # 更新source_pc和source_pc_updated_at字段
@@ -137,7 +142,9 @@ def extract_image_urls(html_source, url):
             title = a_tag.get('title')
             href = a_tag.get('href')
             img_tag = a_tag.find('img')
-            image_url = img_tag.get('src') if img_tag else None
+            image_url = img_tag.get('src')
+            if image_url is None:
+                image_url = img_tag.get('xsrc')
             href = remove_quotes(href)
             image_url = remove_quotes(image_url)
 
@@ -229,49 +236,6 @@ def extract_image_urls(html_source, url):
     return a_tags_data
 
 
-def parse_img(url):
-    try:
-        source = get_page_source_with_playwright(url)
-        # source = get_source_with_playwright_by_mobile(url)
-    except Exception as e:
-        print(f"An exception occurred: {str(e)}")
-        return
-
-    a_tags_data = extract_image_urls(source, url)
-    base_url = base_url_with_http(url)
-    current_time = datetime.now()
-    for link_data in a_tags_data:
-        image_url = link_data['image_url']
-        href = link_data['href']
-        title = link_data['title']
-        kind = link_data['kind']
-        updated_at = current_time
-
-        # 查询是否已存在相同的 image_url 和 updated_at
-        existing_data = db_images().find_one({
-            'image_url': image_url,
-            'updated_at': {'$gte': datetime.now() - timedelta(days=1)}
-        })
-
-        if existing_data:
-            # 如果已存在，则跳过插入操作
-            print("continue ...")
-            continue
-
-        # 保存到 MongoDB 中
-        db_images().insert_one({
-            'page_url': url,
-            'base_page_url': base_url,
-            'image_url': image_url,
-            'href': href,
-            'updated_at': updated_at,
-            'kind': kind,
-            'title': title,
-            'is_download': 0,
-            'download_at': None
-        })
-
-
 def save_screenshot(url):
     current_directory = os.getcwd()
 
@@ -317,10 +281,15 @@ def parse_text_and_links(url, is_mobile=False):
 
     # 提取图片链接信息
     img_tags = soup.find_all('img')
-    for img in img_tags:
+    print("img_tags", len(img_tags))
+    print(img_tags)
+    for idx, img in enumerate(img_tags):
+        print(f"{idx} {str(img)}")
         img_url = img.get('src')  # 图片完整地址
         if img_url is None:
-            continue
+            img_url = img.get('xsrc')  # 图片完整地址
+            if img_url is None:
+                continue
         if "57581" in img_url:
             print("")
         img_a_tag = img.find_parent('a', href=True)
@@ -343,6 +312,7 @@ def parse_text_and_links(url, is_mobile=False):
             'is_mobile': is_mobile,
             'updated_at': datetime.now(),
         })
+        print(f"{idx} img")
 
     # 提取文字链接信息
     a_tags = soup.find_all('a')
@@ -358,7 +328,7 @@ def parse_text_and_links(url, is_mobile=False):
             'text': text,
             'href': href,
             'is_external': is_external,
-            'kind': 'image',
+            'kind': 'txt',
             'is_mobile': is_mobile,
             'updated_at': datetime.now()
         })
@@ -410,8 +380,11 @@ def parse_img(url, is_mobile=False):
     a_tags_data = extract_image_urls(source, url)
     base_url = base_url_with_http(url)
     current_time = datetime.now()
-    for link_data in a_tags_data:
+    for idx, link_data in enumerate(a_tags_data):
+
         image_url = link_data['image_url']
+        print(f"{idx} {image_url}")
+
         if image_url and not image_url.startswith('http'):
             image_url = base_url + image_url
 
@@ -509,20 +482,76 @@ def download_image():
         print(f" update image record image_url:{image_url}")
 
 
+def info():
+    url = "https://www.wodou99.com/"
+    record = db().find()[0]
+    print(record)
+    url = record['url']
+    source_pc = record['source_pc']
+    source_mobile = record['source_mobile']
+    pc_length = len(source_pc)
+    mobile_length = len(source_mobile)
+    length_diff = abs(pc_length - mobile_length)
+    length_diff_percentage = "{:.2f}%".format((length_diff / max(pc_length, mobile_length)) * 100)
+    print("URL:", url)
+    print("Source PC Length:", pc_length)
+    print("Source Mobile Length:", mobile_length)
+    print("Length Difference:", length_diff)
+    print("Length Difference Percentage:", length_diff_percentage)
+    print("")
+
+    pipeline = [
+        {"$group": {"_id": "$kind", "count": {"$sum": 1}}},
+        {"$sort": {"_id": 1}}
+    ]
+    result_by_kind = db_urls().aggregate(pipeline)
+    pipeline = [
+        {"$group": {"_id": "$is_mobile", "count": {"$sum": 1}}},
+        {"$sort": {"_id": 1}}
+    ]
+    result_by_is_mobile = db_urls().aggregate(pipeline)
+    pipeline = [
+        {"$group": {"_id": "$is_external", "count": {"$sum": 1}}},
+        {"$sort": {"_id": 1}}
+    ]
+    result_by_is_external = db_urls().aggregate(pipeline)
+
+    # 输出结果
+    print(f"kind:")
+    for result in result_by_kind:
+        print(result)
+    print(f"is_mobile:")
+    for result in result_by_is_mobile:
+        print(result)
+    print(f"is_external:")
+    for result in result_by_is_external:
+        print(result)
+
+
 def start():
     url = "https://www.wodou99.com/"
+    # # parse_text_and_links(url, is_mobile=False)
+    # db_clear_by_name("website_analysis_urls")
+    # parse_text_and_links(url, is_mobile=True)
+    # # parse_text_and_links(url, is_mobile=False)
+    # db_clear_by_name("website_analysis_image")
+    # # parse_img(url, is_mobile=False)
+    # parse_img(url, is_mobile=True)
+    #
+    # info()
+    #
+    # return
     init_dir(url)
-    save_screenshot(url)
-    return
-
+    # db_clear_by_name("website_analysis")
     db_clear_by_name("website_analysis_urls")
     db_clear_by_name("website_analysis_image")
     parse_text_and_links(url, is_mobile=False)
     parse_text_and_links(url, is_mobile=True)
-    db_clear_by_name("website_analysis_image")
+    save_screenshot(url)
     parse_img(url, is_mobile=False)
     parse_img(url, is_mobile=True)
     download_image()
+    info()
 
 
 if __name__ == '__main__':
