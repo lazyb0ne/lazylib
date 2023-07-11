@@ -25,6 +25,10 @@ def db_images_clear():
     collection['url_images'].delete_many({})
 
 
+def db_clear_by_name(name):
+    collection[name].delete_many({})
+
+
 def db_urls():
     return collection['urls']
 

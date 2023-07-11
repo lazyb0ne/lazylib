@@ -777,20 +777,21 @@ def start():
 
 
 if __name__ == '__main__':
-    # total_start_time = time.time()  # 记录总的开始时间
-
+    total_start_time = time.time()  # 记录总的开始时间
 
     # start()
     # start_deep_start(3)
 
-    url = 'http://hacksou.com'
+    url = "https://www.wodou99.com/"
     # source = get_url_source_mobile(url)
     # print("source")
     # print(source[:200])
     # download_website_text_and_links(url)
 
-    get_link_by_url(url, 1)
+    # get_link_by_url(url, 1)
 
-    # total_end_time = time.time()  # 记录总的结束时间
-    # total_time = total_end_time - total_start_time  # 计算总的运行时间
-    # print(f"Total time: {total_time:.2f} seconds")
+    download_website_text_and_links(url)
+
+    total_end_time = time.time()  # 记录总的结束时间
+    total_time = total_end_time - total_start_time  # 计算总的运行时间
+    print(f"Total time: {total_time:.2f} seconds")

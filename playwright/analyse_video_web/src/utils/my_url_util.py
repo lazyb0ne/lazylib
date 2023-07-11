@@ -64,23 +64,37 @@ def get_page_source_with_playwright(url):
 
 
 def get_source_with_playwright_by_mobile(url):
-    try:
-        with sync_playwright() as playwright:
-            iphone_12 = playwright.devices['iPhone 12']
-            # browser = playwright.webkit.launch(headless=False)
-            browser = playwright.webkit.launch(headless=True)
-            context = browser.new_context(**iphone_12, locale='zh-CN')
-            page = context.new_page()
-            page.goto(url, timeout=12*1000)
-            # page.wait_for_load_state('networkidle')
-            page_source = page.content()
-            page.close()
-            context.close()
-            browser.close()
-            return page_source
-    except Exception as e:
-        print(f"Error occurred: {str(e)}")
-        return None
+    # try:
+    with sync_playwright() as playwright:
+        iphone_12 = playwright.devices['iPhone 12']
+        # browser = playwright.webkit.launch(headless=False)
+        browser = playwright.webkit.launch(headless=False)
+        context = browser.new_context(**iphone_12, locale='zh-CN')
+        page = context.new_page()
+        page.goto(url)
+        # 滚动到页面底部，加载所有内容
+        page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+        # 滚动到页面顶部，加载中间内容
+        page.evaluate('window.scrollTo(0, 0)')
+        # 逐步滚动到页面底部，等待加载中间内容
+        while True:
+            page.evaluate('window.scrollBy(0, 200)')
+            asyncio.sleep(1)  # 等待加载
+            if page.evaluate(
+                    'document.documentElement.scrollHeight - window.innerHeight <= window.pageYOffset'):
+                break
+
+        page.wait_for_load_state('networkidle')
+        time.sleep(3)
+        page_source = page.content()
+        # page.close()
+        # context.close()
+        print(page_source)
+        browser.close()
+        return page_source
+    # except Exception as e:
+    #     print(f"Error occurred: {str(e)}")
+    #     return None
 
 
 def get_source_with_iframe(url, by_phone=True, headless=False):
@@ -180,11 +194,16 @@ def is_valid_url(url):
     return all([parsed_url.scheme, parsed_url.netloc])
 
 
+def is_valid_domain(url):
+    ext = tldextract.extract(url)
+    return all([ext.domain, ext.suffix])
+
+
 async def capture_long_website_screenshot(url, output_path, by_phone=False):
     async with async_playwright() as playwright:
         if by_phone:
             iphone_12 = playwright.devices['iPhone 12']
-            browser = await playwright.webkit.launch(headless=True)
+            browser = await playwright.webkit.launch(headless=False)
             context = await browser.new_context(**iphone_12, locale='zh-CN')
         else:
             browser = await playwright.chromium.launch()
@@ -201,7 +220,6 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
         # 逐步滚动到页面底部，等待加载中间内容
         while True:
             await page.evaluate('window.scrollBy(0, 200)')
-            await asyncio.sleep(1)  # 等待加载
             if await page.evaluate('document.documentElement.scrollHeight - window.innerHeight <= window.pageYOffset'):
                 break
 
@@ -210,4 +228,5 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
 
         await page.screenshot(path=output_path, full_page=True)
         await browser.close()
+        print(f"screenshot saved ok {url}")
 
