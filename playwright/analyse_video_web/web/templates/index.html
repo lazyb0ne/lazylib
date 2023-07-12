@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>网站名称</title>
+</head>
+<body>
+    <div class="navigation">
+
+    </div>
+    <div class="images">
+
+        <!-- 显示图片 -->
+        {% for image in images %}
+            <div class="image">
+                <img src="{{ url_for('static', filename=image.path) }}" alt="本地图片">
+                <p>{{ image.name }}</p>
+            </div>
+        {% endfor %}
+
+    </div>
+</body>
+</html>

@@ -204,7 +204,7 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
     async with async_playwright() as playwright:
         if by_phone:
             iphone_12 = playwright.devices['iPhone 12']
-            browser = await playwright.webkit.launch(headless=True)
+            browser = await playwright.webkit.launch(headless=False)
             context = await browser.new_context(**iphone_12, locale='zh-CN')
         else:
             browser = await playwright.chromium.launch()
@@ -221,16 +221,15 @@ async def capture_long_website_screenshot(url, output_path, by_phone=False):
         # 逐步滚动到页面底部，等待加载中间内容
         while True:
             await page.evaluate('window.scrollBy(0, 200)')
-            time.sleep(1)  # 等待加载
+            # time.sleep(1)  # 等待加载
             if await page.evaluate('document.documentElement.scrollHeight - window.innerHeight <= window.pageYOffset'):
                 break
 
         # 等待页面加载完成
         await page.wait_for_load_state('networkidle')
-
         await page.screenshot(path=output_path, full_page=True)
         await browser.close()
-        print(f"screenshot saved ok {url}")
+        # print(f"screenshot saved ok {url}")
 
 
 def get_source_with_playwright_by_mobile_nb(url):

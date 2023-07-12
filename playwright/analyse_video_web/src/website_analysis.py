@@ -541,7 +541,8 @@ def start():
     # parse_img(url, is_mobile=True)
     #
     # info()
-    save_all_screenshot()
+    url = 'http://www.2kys.com'
+    save_screenshot(url)
     return
     init_dir(url)
     # db_clear_by_name("website_analysis")
@@ -560,7 +561,11 @@ def save_all_screenshot():
     print("save_all_screenshot")
     for idx, url in enumerate(urls_96()):
         print(f"{idx} url :{url}")
-        save_screenshot(url)
+        try:
+            save_screenshot(url)
+            print(f"{idx} save_screenshot ok {url}")
+        except Exception as e:
+            print(f"{idx} error {str(e)}")
         print("   OK")
 
 
